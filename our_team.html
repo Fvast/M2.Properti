@@ -1,0 +1,180 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <title>M2 Property</title>
+    <body>
+        <div class="container">
+            <div class="one">
+                <div class="banner">
+                    <div class="links">
+                        <div class="link"><h3 align="center">
+                            <a href="index.html"color:#f5f5f5">Home</a>
+                              <a href="about.html" style="color:#f5f5f5">About</a>
+                               <a href="service.html" style="color:#f5f5f5">Service</a>
+                                <a href="contacts.html" style="color:#f5f5f5">Contact</a>
+                                </h3>
+                        </div> 
+                </div><img src="banner.png", width="100%", height="100%">
+                
+                </div>
+            <div class="two">
+                <div class="our_team">
+                <p align="left">
+                <b>
+                    Our Team:
+                </b>
+                </p>
+                </div>
+                <div class="content">
+                    <img src="team_member_layout.png", width="1263px">
+                </div>
+                <div class="komisaris">
+                    <p align="center">
+                        <b>
+                            Komisaris <br>
+                            Yongki Apriawan Lie
+                        </b>
+                        </p>
+                </div>
+                <div class="direktur">
+                    <p align="center">
+                        <b>
+                            Direktur Utama <br>
+                            Yudhi Ariffiyanto
+                        </b>
+                        </p>
+                </div>
+                <div class="admin">
+                    <p align="center">
+                        <b>
+                            Admin <br>
+                            Rizky Hariadi
+                        </b>
+                        </p>
+                </div>
+                <div class="marketing_1">
+                    <p align="center">
+                        <b>
+                            Marketing 1 <br>
+                            Machpudin
+                        </b>
+                        </p>
+                </div>
+                <div class="marketing_2">
+                    <p align="center">
+                        <b>
+                            Marketing 2<br>
+                            Dina Wulandari
+                        </b>
+                        </p>
+                </div>
+                <div class="marketing_3">
+                    <p align="center">
+                        <b>
+                            Marketing 3<br>
+                            Suprapto
+                        </b>
+                        </p>
+                </div>
+                <div class="marketing_d">
+                    <p align="center">
+                        <b>
+                            Digital Marketing
+                        </b>
+                        </p>
+                </div>
+          </div>
+  </body>
+</body>
+</html>
+
+<style>
+    
+    .container {
+        display: grid;
+        width: 1263px;
+        grid-template-columns: repeat(1, 3fr);
+        grid-template-rows: 165px 500px 100px;
+        grid-template-areas:
+            "one"
+            "two"
+            "three"
+    }
+
+    .links {
+        color: #f5f5f5;
+        background-color: transparent;
+        text-decoration: none;
+        position: absolute;
+        font-size: 25px;
+        transform: translate(350px, -10px);
+    }
+
+    .links a {
+            margin-right: 30px; 
+        }
+
+    body {
+        font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+        background-color:#f5f5f5;
+        margin:0;
+        padding:0;
+        min-height:100%;
+    }
+    
+    .one{
+        grid-area: one;
+        background: #203458;
+        text-align: center;
+        margin-bottom: 13px;
+    }
+    
+    .two{
+        grid-area: two;
+        background-color:#f5f5f5;
+        margin-top: -80px;
+        margin-bottom: -100px;
+    }
+
+    .our_team{
+        font-size: 50px;
+        margin-left: 50px;
+        transform: translate(0px, 50px);
+    }
+
+    .komisaris{
+        transform: translate(5px, -390px);
+        color:#f5f5f5;
+    }
+
+    .direktur{
+        transform: translate(5px, -300px);
+        color:#f5f5f5;
+    }
+
+    .admin{
+        transform: translate(320px, -355px);
+        color:#f5f5f5;
+    }
+
+    .marketing_1{
+        transform: translate(-483px, -255px);
+        color:#f5f5f5;
+    }
+
+    .marketing_2{
+        transform: translate(-160px, -310px);
+        color:#f5f5f5;
+    }
+
+    .marketing_3{
+        transform: translate(160px, -365px);
+        color:#f5f5f5;
+    }
+
+    .marketing_d{
+        transform: translate(483px, -405px);
+        color:#f5f5f5;
+    }
+    </style>
