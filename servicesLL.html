@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <title>M2 Property</title>
+    <style>
+        .container {
+            display: grid;
+            width: 1500px;
+            margin: auto;
+            grid-template-columns: repeat(1, 2fr);
+            grid-template-rows: 165px auto;
+            grid-template-areas:
+                "one"
+                "two";
+        }
+        .links {
+            color: #f5f5f5;
+            background-color: transparent;
+            text-decoration: none;
+            position: absolute;
+            font-size: 25px;
+            transform: translate(425px, -10px);
+        }
+        .links a {
+            margin-right: 100px;
+        }
+        body {
+            font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+            background-color: #ededed;
+            margin: 0;
+            padding: 0;
+        }
+        .one {
+            grid-area: one;
+            background: #203458;
+            text-align: center;
+            margin-bottom: 13px;
+        }
+        .two {
+            grid-area: two;
+            background-color: #ededed;
+            margin-top: 10px;
+            margin-left: 25px;
+            margin-right: 25px;
+            text-align: left;
+            display: flex;
+            justify-content: space-between;
+            padding-bottom: 50px;
+            padding-top: 20px;
+        }
+        .content {
+            width: 60%;
+            color:#203458;
+        }
+        .grid-container {
+            width: 35%;
+            display: flex;
+            flex-direction: column;
+            gap: 10px;
+            transform: translate(0, 0); 
+        }
+        .grid-item {
+            border: 2px solid #ededed;
+            padding: 10px;
+        }
+
+        .subtitle{
+            margin-left:15px;
+            font-size:30px;
+        }
+
+        .description{
+            margin-left:30px;
+            font-size: 16px;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="one">
+            <div class="banner">
+                <div class="links">
+                    <div class="link">
+                        <h3 align="center">
+                            <a href="service.html" style="color:#f5f5f5">Back</a>
+                        </h3>
+                    </div>
+                </div>
+                <img src="banner.png" width="100%" height="100%">
+            </div>
+        </div>
+        <div class="two">
+            <div class="content">
+                <h3 class="subtitle">Deskripsi</h3>
+                <div class="description">
+                <p align="justify">Jasa “lelang” M2 memberikan pelayanan yang komprehensif dan profesional kepada nasabah dalam proses lelang properti. Kami memahami bahwa proses lelang bisa menjadi rumit dan memerlukan perhatian khusus pada berbagai detail administratif dan hukum. Oleh karena itu, langkah pertama yang kami lakukan adalah membantu nasabah dalam mengurus seluruh surat-surat rumah, memastikan bahwa semua dokumen legalitas telah terpenuhi dan tidak ada hambatan dalam proses lelang. Setelah semua persyaratan hukum terpenuhi, kami memasang spanduk yang menandai properti tersebut sedang dilelang di lokasi strategis untuk menarik perhatian potensial pembeli. Kami juga memanfaatkan berbagai platform media, baik itu media cetak, elektronik, maupun digital untuk meningkatkan eksposur dan minat terhadap properti yang akan dilelang.</p>
+                <p align="justify">Selain pemasangan spanduk, tim kami akan secara aktif mencari pelanggan yang memiliki minat untuk membeli properti yang sedang dilelang. Dengan jaringan luas yang kami miliki, kami dapat menjangkau berbagai kalangan pembeli potensial yang berpotensi untuk memberikan penawaran terbaik. Kami menggunakan strategi promosi yang efektif, termasuk mengadakan open house untuk memungkinkan calon pembeli melihat langsung kondisi properti yang dilelang. Dengan pendekatan yang proaktif ini, kami berharap dapat menemukan pembeli yang tepat dengan cepat dan efisien, sehingga proses lelang dapat berlangsung dengan lancar dan optimal.</p>
+                <p align="justify">Kami berkomitmen untuk memberikan pelayanan terbaik kepada nasabah dengan memastikan bahwa seluruh proses lelang berjalan transparan dan adil bagi semua pihak yang terlibat. Transparansi adalah kunci utama dalam setiap langkah yang kami ambil, mulai dari penilaian awal properti, penentuan harga dasar lelang, hingga proses penawaran dan penutupan lelang. Kami juga menyediakan laporan berkala kepada nasabah tentang perkembangan lelang properti mereka, memberikan kepercayaan dan rasa tenang bahwa properti mereka ditangani oleh tim profesional yang berpengalaman. Kami percaya bahwa dengan pendekatan yang sistematis dan integritas tinggi, nasabah akan merasa puas dengan layanan lelang yang kami tawarkan.</p>
+            </div>
+            </div>
+            <div class="grid-container">
+                <div class="grid-item">
+                    <img src="auction.jpg" width="377px" height="248px">
+                </div>
+                <div class="grid-item">
+                    <img src="auctiongraphic.jpg" width="377px" height="248px">
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
+

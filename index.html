@@ -1,0 +1,208 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <title>M2 Property</title>
+    <body>
+        <div class="container">
+            <div class="one">
+                <div class="banner">
+                    <div class="links">
+                        <div class="link"><h3 align="center">
+                               <a href="service.html" style="color:#f5f5f5">Service</a>
+                                </h3>
+                        </div> 
+                </div><img src="banner.png", width="100%", height="100%">
+                
+                </div>
+            <div class="two">
+                <div class="background">
+                    <img src="background.jpg", width="100%", height="100%">
+                </div>
+                <div class="content">
+                <p>
+                    
+            <div class="three">
+                <p align="center"><b>Welcome to M2 Properti<b></p>
+            </div>
+                </p>
+            </div></div>
+            <div class="four">
+            <div class="content">
+                <h3 class="subtitle">About</h3>
+                <p class="description">M2 Property adalah perusahaan yang bergerak di Bidang Property dan Piutang khusus Spesialis Aset Manajemen. Bergerak dibawah PT YNY Mitra Sejahtera dan berlokasi di Cibubur sebagai titik pusat.</p>
+                <h3 class="subtitle">Visi</h3>
+                <p class="description">Menjadi perusahaan properti terkemuka yang memberikan solusi asset berkualitas tinggi bagi masyarakat, serta menjadi pilihan utama yang dapat diandalkan.</p>
+                <h3 class="subtitle">Misi</h3>
+                <ul class="description">
+                    <li>Memberikan pengalaman transaksi yang mudah dan terpercaya.</li>
+                    <li>Memberikan pilihan harga terbaik bagi berbagai kalangan.</li>
+                    <li>Menyediakan layanan yang terbaik dengan responsif dan profesional.</li>
+                    <li>Memberikan kepuasan dan kepercayaan kepada pelanggan.</li>
+                    <li>Membangun kemitraan yang kuat dengan pihak terkait.</li>
+                    <li>Berkomitmen untuk terus melakukan inovasi dan kemudahan.</li>
+                </ul>
+            </div>
+            <div class="grid-container">
+                <div class="grid-item">
+                    <img src="houseblu.jpg" width="377px" height="248px">
+                </div>
+                <div class="grid-item">
+                    <img src="handsshake.jpg" width="377px" height="248px">
+                </div>
+            </div>
+        </div>
+        </div>
+    </div>
+        <div class="five">
+            <div class="kontak">
+                <b>
+                    <p class="k0">Kontak: </p>
+                    <p class="email">Email: </p>
+                    <p class="whatsapp">Whatsapp: </p>
+                </b>
+            </div>
+          </div>
+    </div>
+    </div>
+</body>
+</html>
+
+<style>
+    
+    .container {
+        display: grid;
+        width: 1500px;
+        margin: auto;
+        grid-template-columns: repeat(1, 5fr);
+        grid-template-rows: 165px 500px 100px 500px 200px;
+        grid-template-areas:
+            "one"
+            "two"
+            "three"
+            "four"
+            "five"
+    }
+
+    .links {
+        color: #f5f5f5;
+        background-color: transparent;
+        text-decoration: none;
+        position: absolute;
+        font-size: 25px;
+        transform: translate(425px, -10px);
+    }
+
+    .links a {
+            margin-right: 100px; 
+        }
+
+    body {
+        font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+        background-color:#ededed;
+        margin:0;
+        padding:0;
+        min-height:100%;
+    }
+    
+    .one{
+        grid-area: one;
+        background: #203458;
+        text-align: center;
+        margin-bottom: 0px;
+    }
+    
+    .two{
+        grid-area: two;
+        background-color:#ededed;
+        margin-top: -4px;
+        margin-bottom: -100px;
+    }
+
+    .three{
+        grid-area: three;
+        background-color:#263e6a;
+        margin-left: 320px;
+        padding-top: 1px;
+        padding-bottom: 1px; 
+        color: #f5f5f5;
+        font-size: 80px;
+        transform: translate(25%, -60%);
+    }
+
+    .four {
+        grid-area: four;
+        background-color: #ededed;
+        margin-top: 10px;
+        margin-left: 25px;
+        margin-right: 25px;
+        text-align: left;
+        display: flex;
+        justify-content: space-between;
+        padding-bottom: 50px;
+    }
+    .content {
+        width: 60%;
+        color:#203458;
+    }
+
+    .subtitle{
+        margin-left:15px;
+        font-size: 30px;
+    }
+
+    .description{
+        margin-left:30px;
+        font-size: 20px;
+    }
+    .grid-container {
+        width: 35%;
+        display: flex;
+        flex-direction: column;
+        gap: 10px;
+        transform: translate(0, 0); 
+    }
+    .grid-item {
+        border: 2px solid #ededed;
+        padding: 10px;
+    }
+
+    .five{
+        grid-area: five;
+        margin-top:100px;
+        padding-top:30px;
+        background-color:#ededed;
+        margin-left: auto;
+        margin-right: auto;
+        width: 100%;
+        display: flex;
+        justify-content: center;
+    }
+
+    .kontak{
+        background-color: #203458;
+        color:#f5f5f5;
+        font-size: 20px;
+        padding-top: 5px;
+        padding-bottom: 60px;
+        width: 100%;
+        max-width: 1500px;
+    }
+
+    .k0{
+        font-size: 60px;
+        padding-left: 40px;
+    }
+
+    .email{
+        font-size: 20px;
+        padding-left: 60px;
+        transform: translate(0px, -35px);
+    }
+
+    .whatsapp{
+        font-size: 20px;
+        padding-left: 60px;
+        transform: translate(0px, -35px);
+    }
+    </style>
